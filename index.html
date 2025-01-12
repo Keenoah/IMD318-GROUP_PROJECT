@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Home - SAMUTA</title>
+		<link rel="icon" type="image/x-icon" href="images/logo.png">
+
+        <!-- CSS FILES -->    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">                    
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+                                       
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <a class="navbar-brand" href="index.html">
+                    SAMUTA
+                </a>
+
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Reservation </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+               
+
+            </div>
+        </nav><br><br><br>
+		
+		
+<style>
+#accessibility-icon {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      background: black;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1000;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #accessibility-icon i {
+      font-size: 24px;
+    }
+
+    #accessibility-menu {
+      position: fixed;
+      bottom: 70px;
+      left: 10px;
+      background: black; 
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      z-index: 1000;
+      display: none; 
+      width: 180px;
+    }
+
+    #accessibility-menu button {
+      display: block;
+      margin: 5px 0;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #444;
+      color: white;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    #accessibility-menu button:hover {
+      background: #666;
+    }
+</style>
+
+
+
+
+
+        <main>
+
+            <section class="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 m-auto">
+                            <div class="heroText">
+
+                                <h1 class="text-white mb-lg-5 mb-3">SAMUTA Restaurant</h1>
+
+                                <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <h4 class="text-white mb-0 me-3">4.4/5</h4>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+                                    </div>
+
+                                    <p class="text-white w-100">From <strong>1,206+</strong> Customer Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 col-12">
+                            <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/slide/restaurant.jpg" class="img-fluid carousel-image" alt="">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <span class="text-white">
+                                                <i class="bi-geo-alt me-2"></i>
+                                                Sungai Petani, Kedah
+                                            </span>
+
+                                            <h4 class="hero-text">Aesthetics Restaurant</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/slide/dapur.jpg" class="img-fluid carousel-image" alt="">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <div class="d-flex align-items-center">
+                                                <h4 class="hero-text">Our Kitchen Area</h4>
+                                                                                                </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <h5 class="reviews-text mb-0 me-3">4/5</h5>
+
+                                                <div class="reviews-stars">
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/slide/dining.jpg" class="img-fluid carousel-image" alt="">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <div class="d-flex align-items-center">
+                                                <h4 class="hero-text">Our Dining Area</h4>
+
+                                                                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <h5 class="reviews-text mb-0 me-3">4.2/5</h5>
+
+                                                <div class="reviews-stars">
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star reviews-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src="video/videohome.mp4" type="video/mp4">
+                        	Your browser does not support the video tag.
+                    	</video>
+                </div>
+
+                <div class="overlay"></div>
+            </section>
+
+            <section class="menu section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="text-center mb-lg-5 mb-4">Special Menus</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/breakfast/sourdough.jpg" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-warning">Breakfast</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Sourdough</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>RM</small>8.90</span>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4.4/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">128 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/lunch/omurice.jpg" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-warning">Lunch</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Japanese Omurice</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>RM</small>9.90</span>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4.2/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">66 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/dinner/panme.jpg" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-warning">Dinner</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Pan Mee</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>RM</small>8.90</span>
+
+                                   
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">76 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+			<center>
+ <audio controls>
+                            <source src="laguwebsite.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+						</center>
+            <section class="BgImage"></section>
+
+            <div id="accessibility-icon" onclick="toggleMenu()">
+    <i class="bi bi-person-wheelchair"></i>
+  </div>
+
+  <!-- Accessibility Menu -->
+  <div id="accessibility-menu">
+    <button onclick="increaseFontSize()">Increase Font Size</button>
+    <button onclick="decreaseFontSize()">Decrease Font Size</button>
+  </div>
+  <div id="accessibility-icon" onclick="toggleMenu()">
+    <i class="bi bi-person-wheelchair"></i>
+  </div>
+  
+  </main>
+  
+        <footer class="site-footer section-padding">
+            
+            <div class="container">
+                
+                <div class="row">
+
+                    <div class="col-12">
+                        <h4 class="text-white mb-4 me-5">SAMUTA</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+
+                        <p>288B, Taman Lembah Bujang Saujana, 08000 Sungai Petani, Kedah.</p>
+
+                        <a href="https://maps.app.goo.gl/w5jHRX9YkHdsE2pL9" target="_blank" class="custom-btn btn btn-dark mt-2">Directions</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+
+                        <p class="mb-2">Tuesday - Sunday</p>
+                        
+                        <p>Closed - Monday</p>
+
+                        <p>10:00 AM - 08:00 PM</p>
+
+                        <p>Tel: <a href="https://wa.me/+601161134580" target="_blank" class="tel-link">011-6113-4580</a></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Social</h6>
+
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/share/17BhiNTPPh/?mibextid=wwXIfr" target="_blank" class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="https://www.instagram.com/keenoah?igsh=dTZtNmdzbXBjOGE3&utm_source=qr" target="_blank" class="social-icon-link bi-instagram"></a></li>
+
+                                                   </ul>
+                    
+                        <p class="copyright-text tooplate-mt60">Copyright © 2025 SAMUTA<br>This website was created in January 2025<br>Last updated on 12 january 2025
+                                                
+                    </div>
+
+                </div><!-- row ending -->
+                
+             </div><!-- container ending -->
+             
+        </footer>
+
+        </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+		
+		
+<script>       const originalFontSizes = new Map();
+document.querySelectorAll("body *").forEach((el) => {
+  originalFontSizes.set(el, parseFloat(getComputedStyle(el).fontSize));
+});
+
+// Increase font size
+function increaseFontSize() {
+  const elements = document.querySelectorAll("body *");
+  elements.forEach((el) => {
+    const currentSize = parseFloat(getComputedStyle(el).fontSize);
+    el.style.fontSize = (currentSize + 2) + "px";
+  });
+}
+
+// Decrease font size (with limit)
+function decreaseFontSize() {
+  const elements = document.querySelectorAll("body *");
+  elements.forEach((el) => {
+    const currentSize = parseFloat(getComputedStyle(el).fontSize);
+    const originalSize = originalFontSizes.get(el); // Get the original font size
+    // Only decrease if the current size is greater than the original size
+    if (currentSize > originalSize) {
+      el.style.fontSize = (currentSize - 2) + "px";
+    }
+  });
+}
+
+// Toggle the visibility of the accessibility menu
+function toggleMenu() {
+  const menu = document.getElementById("accessibility-menu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+
+    </body>
+</html>
